@@ -1,0 +1,135 @@
+/* Parte 1 - Reset e Fonte */
+body {
+    /* Definir fonte padrão e espaçamento */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    /* Remover margens e paddings padrão */
+    margin: 0;
+    padding: 0;
+}
+
+/* Parte 2 - Menu de Navegação */
+nav ul {
+    /* Remover estilo padrão da lista */
+    list-style: none;
+    /* Organizar itens horizontalmente */
+    display: flex;
+    /* Adicionar cor de fundo */
+    background-color: #333;
+    /* Adicionar espaçamento interno do menu*/
+    padding: 10px;
+}
+nav ul li {
+    /* Criar espaçamento à direita entre os itens do menu */
+    margin-right: 20px;
+}
+nav ul li a {
+    /* Definir cor do texto do link */
+    color: #fff;
+    /* Remover sublinhado dos links */
+    text-decoration: none;
+}
+
+/* Parte 3 - Header */
+header {
+    /* Centralizar texto do header */
+    text-align: center;
+    /* Adicionar espaçamento interno */
+    padding: 20px;
+    /* Adicionar cor de fundo */
+    background-color: #eee;
+}
+header img {
+    /* Definir altura da logo */
+    height: 60px;
+    /* Alinhar verticalmente a imagem */
+    vertical-align: middle;
+}
+
+/* Parte 4 - Secções */
+section {
+    /* Adicionar espaçamento interno, a todas as secções */
+    padding: 20px;
+}
+section#estrutura {
+    /* Adicionar cor de fundo */
+    background-color: #333;
+    /* Definir cor do texto */
+    color: #fff;
+    /* Organizar artigos horizontalmente */
+    display: flex;
+    /* Espaçar artigos uniformemente */
+    justify-content: space-around;
+}
+section#estrutura article {
+    /* Definir largura dos artigos */
+    width: 30%;
+}
+section#estrutura a {
+    /* Mostrar links como blocos inline */
+    display: inline-block;
+    /* Adicionar espaçamento superior */
+    margin-top: 10px;
+    /* Definir cor dos links */
+    color: #00f;
+    /* Adicionar sublinhado aos links */
+    text-decoration: underline;
+}
+
+/* Parte 5 - Equipa */
+section#equipa div {
+    /* Organizar artigos horizontalmente */
+    display: flex;
+    /* Espaçar artigos uniformemente */
+    justify-content: space-around;
+    /* Permitir quebra de linha */
+    flex-wrap: wrap;
+}
+section#equipa article {
+    /* Definir largura dos artigos */
+    width: 30%;
+    /* Alinhar texto ao centro */
+    text-align: center;
+    /* Adicionar espaçamento inferior */
+    margin-bottom: 20px;
+}
+section#equipa img {
+    /* Ajustar largura da imagem */
+    width: 100%;
+    /* Manter altura automática */
+    height: auto;
+}
+
+/* Parte 6 - Tabela */
+table {
+    /* Definir largura da tabela */
+    width: 100%;
+    /* Juntar bordas das células */
+    border-collapse: collapse;
+}
+table, th, td {
+    /* Adicionar bordas */
+    border: 1px solid #333;
+}
+th, td {
+    /* Adicionar espaçamento interno */
+    padding: 10px;
+    /* Alinhar texto ao centro */
+    text-align: center;
+}
+
+/* Parte 7 - Footer */
+footer {
+    /* Definir cor de fundo */
+    background-color: #333;
+    /* Definir cor do texto */
+    color: #fff;
+    /* Adicionar espaçamento */
+    padding: 20px;
+}
+footer a {
+    /* Definir cor dos links */
+    color: #fff;
+    /* Remover sublinhado dos links */
+    text-decoration: none;
+}
